@@ -1,0 +1,104 @@
+body {
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*NAVIGATION BAR*/
+nav {
+  background-color: #1f56b55f;
+}
+nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li,
+a {
+  text-decoration: none;
+  margin: 20px;
+  font-size: larger;
+  color: #0e3373;
+}
+nav img {
+  height: 80px;
+  width: auto;
+}
+/*HOME PAGE*/
+.home {
+  padding-bottom: 50px;
+  background-color: #001531;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home img {
+  height: 500px;
+  width: auto;
+}
+.home article {
+    color: #efefef;
+  text-align: center;
+  font-size: x-large;
+}
+.OrderNowButton {
+  padding: 20px;
+  background-color: #0e3373;
+  border-radius: 10px;
+}
+.OrderNowButton a,
+.book a {
+  color: #efefef;
+  font-weight: bold;
+}
+/*PRICE LIST PAGE*/
+.PL,.oneKG,.fiveKG {
+  padding-bottom: 50px;
+  background-color: #d5dae1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.priceSect, .policy, .oneKG_PriceList, .fiveKG_PriceList{
+  color: #001531;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.priceSect h2 {
+  text-align: center;
+}
+.PL h1{
+    font-size: 60px;
+    color: 
+    #001531;
+}
+.fiveKG,
+.oneKG, .oneKg_label, .oneKg_price, .fiveKg_label, .fiveKg_price {
+  padding: 10px;
+  background-color: rgb(236, 236, 235);
+  margin: 20px;
+  border-radius: 10px;
+}
+.book {
+  margin-top: -15px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  width: fit-content;
+  background-color: #0e3373;
+  border-radius: 10px;
+}
+.delPol, .note {
+  padding: 10px;
+  background-color: rgb(124, 81, 38);
+  margin: 20px;
+  border-radius: 30px;
+  color: white
+  ;
+  box-shadow:;
+}
